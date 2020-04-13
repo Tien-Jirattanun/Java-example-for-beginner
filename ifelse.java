@@ -6,21 +6,15 @@ public class ifelse
     {
         byte n = 0;
         byte c = 7;
-        while(1==1)
+        if(n < c)                               //if statement is true do it                          
         {
-            if(n < c)
-            {
-                System.out.println("n<c");
-                ++n;
-            }
-            else if(n>c)
-            {
-                System.out.println(n>c);
-                --n;
-            }
-            else {
-                //pass
-            }
+            System.out.println("n<c");
+            ++n;
+        }
+        else if(n>c)                            //if statrment is not true check this if this statement is true do it
+        {
+             System.out.println("n>c");
+             --n;
         }
     }
 
