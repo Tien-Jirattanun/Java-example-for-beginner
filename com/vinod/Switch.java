@@ -1,4 +1,4 @@
-package com.company;
+package com.vinod;
 
 public class Switch
 {

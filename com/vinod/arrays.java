@@ -1,6 +1,6 @@
-package com.company;
+package com.vinod;
 
-public class array
+public class arrays
 {
     public static void main (string[] args)
     {
