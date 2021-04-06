@@ -43,6 +43,18 @@ public class Methods
         return x + y;
     }
 
+    // Static method
+    static void myStaticMethod() {
+        System.out.println("Static methods can be called without creating objects");
+    }
+
+    // Public method
+    public void myPublicMethod() {
+        System.out.println("Public methods must be called by creating objects");
+    }
+
+
+
     public static void mainf()
     {
         hello();
@@ -50,6 +62,11 @@ public class Methods
         plus(5,10);
         System.out.println(plusMethod(6,5));
         System.out.println(plusMethod(6.8,7.6));
+        myStaticMethod(); // Call the static method
+        // myPublicMethod(); This would compile an error
+
+        Methods myObj = new Methods(); // Create an object of Main
+        myObj.myPublicMethod(); // Call the public method on the object
     }
 
 }

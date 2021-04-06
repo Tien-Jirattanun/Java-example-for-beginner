@@ -2,6 +2,10 @@ package com.vinod;
 
 public class arrays
 {
+    public static void callmain()
+    {
+        mainf();
+    }
     public static void mainf()
     {
         int[] num = {1,2,3,4,5,6,7};
