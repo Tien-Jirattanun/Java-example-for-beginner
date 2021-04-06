@@ -2,7 +2,7 @@ package com.vinod;
 
 public class variable
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
         byte num  = 127;
         int num2 = 32767;

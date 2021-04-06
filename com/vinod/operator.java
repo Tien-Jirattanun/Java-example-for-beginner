@@ -2,7 +2,7 @@ package com.vinod;
 
 public class operator
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
         byte x = 25;
         byte y = 5;

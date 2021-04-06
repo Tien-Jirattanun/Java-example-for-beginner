@@ -43,7 +43,7 @@ public class Methods
         return x + y;
     }
 
-    public static void main(String[] args)
+    public static void mainf()
     {
         hello();
         print("How are you");

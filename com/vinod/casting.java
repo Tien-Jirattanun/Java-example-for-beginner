@@ -2,7 +2,7 @@ package com.vinod;
 
 public class casting
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
         //smaller to bigger
         System.out.println("smaller to bigger");

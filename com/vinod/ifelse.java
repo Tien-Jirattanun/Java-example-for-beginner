@@ -2,7 +2,7 @@ package com.vinod;
 
 public class ifelse
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
         byte n = 0;
         byte c = 7;

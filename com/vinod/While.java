@@ -2,7 +2,7 @@ package com.vinod;
 
 public class While
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
        int i = 0;
        while (i<5)                                      //while the statement is true do it
