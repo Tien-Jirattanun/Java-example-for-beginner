@@ -10,8 +10,10 @@ public class Main
         System.out.println(100);
 	System.out.print("hello world "+hello);
         System.out.println("\n1. Array \t 2. Casting \t 3. For \t 4. IfElse \n 5. Math \t 6. Methods \t 7. Operator \t 8. String \n 9. Switch \t 10. Variable \t 11. While \n Enter your choice?");
-	Scanner menuInput = new Scanner(System.in);
+	// This is how user input needs to be taken
+        Scanner menuInput = new Scanner(System.in);
 	int selection = menuInput.nextInt();
+	// switching
         switch(selection)
         {
             case 1 :
