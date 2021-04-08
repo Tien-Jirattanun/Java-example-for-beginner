@@ -12,7 +12,7 @@ public class Main
         System.out.println("\n Learn in the given sequence of complexity. ");
         System.out.println("\n1. Array \t 2. Casting \t 3. For \t 4. IfElse \n 5. Math \t 6. Methods \t 7. Operator \t 8. String ");
         System.out.println(" 9. Switch \t 10. Variable \t 11. While \t 12. Wrapper \n 13. Stack \t 14. LinkedList \t 15. ArrayList \t16.  Type of Loop Iteration\n Enter your choice?");
-        System.out.println(" 17. Queue \n Enter your choice?");
+        System.out.println(" 17. Queue \t 18. HashMap \n Enter your choice?");
 	// This is how user input needs to be taken
         Scanner menuInput = new Scanner(System.in);
 	int selection = menuInput.nextInt();
@@ -69,6 +69,9 @@ public class Main
                 break;
             case 17:
                 Que.mainf();
+                break;
+            case 18:
+                Hashmp.mainf();
                 break;
             default:
                 System.out.println("Invalid option.");

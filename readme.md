@@ -6,3 +6,4 @@ Learn in the given sequence of complexity.
 5. Math 	 6. Methods 	 7. Operator 	 8. String
 9. Switch 	 10. Variable 	 11. While 	 12. Wrapper
 13. Stack 	 14. LinkedList 	 15. ArrayList 	16.  Type of Loop Iteration
+17. Queue 	 18. HashMap 
