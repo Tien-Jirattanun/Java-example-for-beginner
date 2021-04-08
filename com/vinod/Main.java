@@ -9,7 +9,7 @@ public class Main
 	System.out.println("hello world");
         System.out.println(100);
 	System.out.print("hello world "+hello);
-        System.out.println("\n1. Array \t 2. Casting \t 3. For \t 4. IfElse \n 5. Math \t 6. Methods \t 7. Operator \t 8. String \n 9. Switch \t 10. Variable \t 11. While \n Enter your choice?");
+        System.out.println("\n1. Array \t 2. Casting \t 3. For \t 4. IfElse \n 5. Math \t 6. Methods \t 7. Operator \t 8. String \n 9. Switch \t 10. Variable \t 11. While \t 12. Wrapper \n 13. Stack \n Enter your choice?");
 	// This is how user input needs to be taken
         Scanner menuInput = new Scanner(System.in);
 	int selection = menuInput.nextInt();
@@ -48,6 +48,12 @@ public class Main
                 break;
             case 11:
                 While.mainf();
+                break;
+            case 12:
+                Wrapper.mainf();
+                break;
+            case 13:
+                Stack.mainf();
                 break;
             default:
                 System.out.println("Invalid option.");
