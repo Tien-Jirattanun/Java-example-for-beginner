@@ -2,7 +2,10 @@ package com.vinod;
 
 import java.util.LinkedList;
 import java.util.Queue;
-
+/*
+Author: Vinod Kotiya
+vinodkotiya.blogspot.com
+ */
 public class Que {
     public static void mainf(){
         Queue<String> kids = new LinkedList<String>();

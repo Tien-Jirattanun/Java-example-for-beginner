@@ -1,5 +1,8 @@
 package com.vinod;
-
+/*
+Author: Vinod Kotiya
+vinodkotiya.blogspot.com
+ */
 public class Stack {
     int stack[] = new int[5];
     int top = 0;

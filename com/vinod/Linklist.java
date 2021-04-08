@@ -2,7 +2,10 @@ package com.vinod;
 
 import java.util.Iterator;
 import java.util.LinkedList;
-
+/*
+Author: Vinod Kotiya
+vinodkotiya.blogspot.com
+ */
 public class Linklist {
     public static void mainf(){
         LinkedList linky = new LinkedList();

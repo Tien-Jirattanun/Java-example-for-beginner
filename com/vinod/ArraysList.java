@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-
+/*
+Author: Vinod Kotiya
+vinodkotiya.blogspot.com
+ */
 public class ArraysList {
     public static void mainf() {
 
