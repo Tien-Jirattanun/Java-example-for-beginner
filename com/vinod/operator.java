@@ -1,8 +1,8 @@
-package com.company;
+package com.vinod;
 
 public class operator
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
         byte x = 25;
         byte y = 5;
@@ -12,6 +12,7 @@ public class operator
         int op4 = 25 / 5;                       //25  / 5
         int op5 = 25 % 5;                       //25 / 5    Returns the division remainder
         byte op6 = ++x;                         //x+1
+        byte op8 = x++;                         // x the ++
         byte op7 = --y;                         //y-1
         System.out.println("op1 : " + op1);
         System.out.println("op2 : " + op2);
@@ -20,6 +21,7 @@ public class operator
         System.out.println("op5 : " + op5);
         System.out.println("op6 : " + op6);
         System.out.println("op7 : " + op7);
+        System.out.println("op8 : " + op8);
 
     }
 }

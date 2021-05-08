@@ -1,8 +1,8 @@
-package com.company;
+package com.vinod;
 
 public class math
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
         Math.max(3, 6);                 //find max
         Math.min(5, 10);                //find min

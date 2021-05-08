@@ -1,8 +1,8 @@
-package com.company;
+package com.vinod;
 
 public class Switch
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
         int day = 4;
         switch (day)

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class main {
+    public static void main(String[]args){
+        //variable zone
+        Scanner scan = new Scanner(System.in);
+        byte x;                                     //random number
+        int i = 0;                                  //count round
+        //working zone
+        while(1 == 1) {
+            System.out.print("Enter number : ");
+            int a = scan.nextInt();                 //stop at a
+            if (a > 10 || a < 0) {
+                System.out.println("re-enter a number(number must de 0-10)");
+            } else {
+                do {
+                    double b = Math.random();
+                    x = (byte) (b * 11);
+                    System.out.println(x);
+                    i++;
+                } while (x != a);
+                System.out.println("round : " + i);
+                break;
+            }
+        }
+    }
+}

@@ -1,8 +1,8 @@
-package com.company;
+package com.vinod;
 
 public class For
 {
-    public static void main(String[] args)
+    public static void mainf()
     {
         for(int i = 0;i<9;i++)
         {

@@ -1,10 +1,9 @@
-package com.company;
+package com.vinod;
 
 public class casting
 {
-    public static void main(String[] args)
-    {
-        //smaller to bigger
+    public static void mainf(){
+             //smaller to bigger
         System.out.println("smaller to bigger");
         int mydo = 9;
         double mydx = mydo;
